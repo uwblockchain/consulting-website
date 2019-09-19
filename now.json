@@ -1,12 +1,5 @@
 {
   "version": 2,
   "name": "Techfin Consulting",
-  "alias": ["techfin.consulting", "www.techfin.consulting"],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "headers": { "cache-control": "s-maxage=0" },
-      "dest": "/index.html"
-    }
-  ]
+  "alias": ["techfin.consulting", "www.techfin.consulting"]
 }
